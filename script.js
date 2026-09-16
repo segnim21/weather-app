@@ -68,6 +68,8 @@ async function fetchWeather(city) {
     cityName.textContent = actualCityName;
     temperature.textContent = `${currentTemp}°C`;
     description.textContent = descText;
+
+    weatherDisplay.style.display = "block";
   } catch (error) {
     errorMessage.textContent = error.message;
     errorMessage.style.display = "block";
