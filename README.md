@@ -1,2 +1,2 @@
 # weather-app
-A practice weather app currently building with HTML, CSS, and JavaScript...
+A practice weather app  built  with HTML, CSS, and JavaScript
